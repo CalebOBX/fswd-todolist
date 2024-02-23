@@ -1,8 +1,8 @@
 {
   "name": "fswd-todolist",
   "private": true,
-  "engines" : { 
-    "node" : "^16.17"
+  "engines": {
+    "node": "^16.17"
   },
   "dependencies": {
     "@rails/actioncable": "^6.0.0",
@@ -16,5 +16,25 @@
   "version": "0.1.0",
   "devDependencies": {
     "webpack-dev-server": "^3"
-  }
+  },
+  "description": "This is a To Do list full-stack application. It has a user table and a task table. And a front-end that consumes the API.",
+  "main": "babel.config.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CalebOBX/fswd-todolist.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CalebOBX/fswd-todolist/issues"
+  },
+  "homepage": "https://github.com/CalebOBX/fswd-todolist#readme"
 }
